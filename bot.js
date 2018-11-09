@@ -116,22 +116,6 @@ client.on("guildMemberAdd", member => {
 
 
 
-//معلومات عن البوت
-
-         client.on('message', message => {
-            if (message.content.startsWith("بوت")) {
-     let embed = new Discord.RichEmbed()
-.setThumbnail(message.author.avatarURL)
-.addField(' البنق🚀 ',`[${Date.now() - message.createdTimestamp}]`) 
-.addField('مصمم  + صاحب البوت ',`★мohme𝕯★| ProG🌹#4476 و W͈̪̣AR NI̴̧͝GH̴̵T͇ | RG🌹#4506`)
-.setColor('#027aff')
-  message.channel.sendEmbed(embed);
-    }
-});
-
-
-
-
 //حذف الشات
 
 client.on("message", message => { //clear
