@@ -35,7 +35,7 @@ client.login(process.env.BOT_TOKEN);
 
 
 client.on('message', msg => {
-    if (msg.content === 'السلامه عليكم ') {
+    if (msg.content === 'السلامه عليكم') {
        msg.reply('**وُعٍلُِيڪم آلُِسلُِآم وُرٍحٍمة آلُِلُِهـ :hearts:️:hearts:️**');
       }
     });
