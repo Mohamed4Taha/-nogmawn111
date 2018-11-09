@@ -41,12 +41,6 @@ client.on('message', msg => {
     });
 
 client.on('message', msg => {
-    if (msg.content === 'ولكم') {
-       msg.reply('باك');
-      }
-    });
-
-client.on('message', msg => {
     if (msg.content === 'باك') {
        msg.reply('ۆلُگم بگ يَآ عٍسلُ :hearts:️:heart_exclamation:️:two_hearts::hearts:️');
       }
@@ -58,29 +52,12 @@ client.on('message', msg => {
       }
     });
 
-    client.on('message', msg => {
-        if (msg.content === 'اهلا') {
-           msg.reply('و سهلا');
-          }
-        });
-
-        client.on('message', msg => {
-            if (msg.content === 'ممكن كريديت بليز') {
-               msg.reply('مش هينفع اسف ... بس قريبا انشاء الله ممكن نعمل مسابقات و ممكن نعمل نظام دعوات');
-              }
-            });
-
 client.on('message', msg => {
     if (msg.content === 'برب') {
        msg.reply('تيت لُِآطُطُوُلُِ عٍلُِينآ يآ عٍسلُِ :hearts:️:hearts:️:two_hearts::heart_exclamation:️');
       }
     });
 
-client.on('message', msg => {
-    if (msg.content === 'الشعار') {
-       msg.reply('');
-      }
-    });
 
 
 
