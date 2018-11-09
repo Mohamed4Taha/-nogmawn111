@@ -35,8 +35,8 @@ client.login(process.env.BOT_TOKEN);
 
 
 client.on('message', msg => {
-    if (msg.content === 'السلام عليكم') {
-       msg.reply('**و عليكم السلام و رحمة الله و بركاته:heart: **');
+    if (msg.content === 'السلامه عليكم ') {
+       msg.reply('**وُعٍلُِيڪم آلُِسلُِآم وُرٍحٍمة آلُِلُِهـ :hearts:️:hearts:️**');
       }
     });
 
@@ -48,13 +48,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'باك') {
-       msg.reply('ولكم باك');
+       msg.reply('ۆلُگم بگ يَآ عٍسلُ :hearts:️:heart_exclamation:️:two_hearts::hearts:️');
       }
     });
 
 client.on('message', msg => {
     if (msg.content === 'هلا') {
-       msg.reply('هلا بيك ');
+       msg.reply('آهـلُِآ بَڪ منوُرٍ من زْمآن يآ عٍسلُِ :hearts:️:hearts:️:heart_exclamation:️');
       }
     });
 
@@ -71,20 +71,20 @@ client.on('message', msg => {
             });
 
 client.on('message', msg => {
-    if (msg.content === 'اوك') {
-       msg.reply('اوك');
+    if (msg.content === 'برب') {
+       msg.reply('تيت لُِآطُطُوُلُِ عٍلُِينآ يآ عٍسلُِ :hearts:️:hearts:️:two_hearts::heart_exclamation:️');
       }
     });
 
 client.on('message', msg => {
-    if (msg.content === 'K') {
-       msg.reply('ok');
+    if (msg.content === 'الشعار') {
+       msg.reply('');
       }
     });
 
     client.on('message', msg => {
-        if (msg.content === 'هاي') {
-           msg.reply('هايات');
+        if (msg.content === '.' {
+           msg.reply('أطہٰلہٰق أسہٰبٰٰاتہٰ وجود :hearts:️:hearts:️:heart_exclamation:️');
           }
         });
 
