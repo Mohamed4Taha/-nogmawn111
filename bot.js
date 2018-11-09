@@ -434,23 +434,6 @@ client.on('message', message => {
 }); 
 
 
-
-//مانع نشر الانفايت
-
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('discord.gg')){
-        message.delete()
-      message.channel.sendMessage("", {embed: {
-        title: "لا تنشر",
-        color: 0x06DF00,
-        description: "يمنع النشر في هذا السيرفر",
-        footer: {
-          text: "محمد طه"
-        }
-      }}).then(msg => {msg.delete(3000)});
-                          }
-
      
 }); 
 
@@ -502,7 +485,7 @@ client.on('message', async message =>{
 
 client.on ("guildMemberAdd", member => {
   
-   var role = member.guild.roles.find ("name", "Member");
+   var role = member.guild.roles.find ("name", "m̷e̷m̷b̷e̷r̷");
    member.addRole (role);
   
 })
