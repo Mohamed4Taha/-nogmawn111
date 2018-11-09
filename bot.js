@@ -42,19 +42,19 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'باك') {
-       msg.reply('ۆلُگم بگ يَآ عٍسلُ :hearts:️:heart_exclamation:️:two_hearts::hearts:️');
+       msg.reply('**ۆلُگم بگ يَآ عٍسلُ :hearts:️:heart_exclamation:️:two_hearts::hearts:️**');
       }
     });
 
 client.on('message', msg => {
     if (msg.content === 'هلا') {
-       msg.reply('آهـلُِآ بَڪ منوُرٍ من زْمآن يآ عٍسلُِ :hearts:️:hearts:️:heart_exclamation:️');
+       msg.reply('**آهـلُِآ بَڪ منوُرٍ من زْمآن يآ عٍسلُِ :hearts:️:hearts:️:heart_exclamation:️**');
       }
     });
 
 client.on('message', msg => {
     if (msg.content === 'برب') {
-       msg.reply('تيت لُِآطُطُوُلُِ عٍلُِينآ يآ عٍسلُِ :hearts:️:hearts:️:two_hearts::heart_exclamation:️');
+       msg.reply('**تيت لُِآطُطُوُلُِ عٍلُِينآ يآ عٍسلُِ :hearts:️:hearts:️:two_hearts::heart_exclamation:️**');
       }
     });
 
