@@ -32,7 +32,17 @@ client.login(process.env.BOT_TOKEN);
 
 
 
+client.on('message', msg => {
+    if (msg.content === 'السلام عليكم') {
+       msg.reply('**وُعٍلُِيڪم آلُِسلُِآم وُرٍحٍمة آلُِلُِهـ :hearts:️:hearts:️**');
+      }
+    });
 
+client.on('message', msg => {
+    if (msg.content === 'السلامة عليكم') {
+       msg.reply('**وُعٍلُِيڪم آلُِسلُِآم وُرٍحٍمة آلُِلُِهـ :hearts:️:hearts:️**');
+      }
+    });
 
 client.on('message', msg => {
     if (msg.content === 'السلامه عليكم') {
